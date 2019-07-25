@@ -8,4 +8,4 @@ alias nats-req='nats-req $CREDS'
 alias chat='chat -creds chat.creds'
 alias creds-show='nsc describe jwt -f .creds'
 
-figlet "NATS - OSCON"
+figlet "NATS   -   GoSF"

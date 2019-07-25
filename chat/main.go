@@ -51,7 +51,7 @@ func main() {
 
 	// Connect to NATS system
 	log.Print("Connecting to NATS system")
-	opts := []nats.Option{nats.Name("OSCON Chat")}
+	opts := []nats.Option{nats.Name("GoSF Chat")}
 	opts = setupConnOptions(opts)
 	opts = append(opts, nats.UserCredentials(*userCreds))
 
